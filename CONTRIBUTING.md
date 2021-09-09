@@ -5,14 +5,23 @@ We are happy to welcome all the contributions from anyone willing to improve/add
 
 Below you will find the process used to review and merge your pull request.
 ## Step 1 : Find an issue
-- Take a look at the Existing Issues or [create your own Issues!](https://github.com/GDSC-USICT/GDSC-USICT-Web/issues/new/choose)
+- Take a look at the Existing Issues or [create your own Issues](https://github.com/GDSC-USICT/GDSC-USICT-Web/issues/new/choose) (Feature/Bug Report)
 - Comment on the issue you want to work on and the maintainers will assign you the issue.
 - Note : Every change in this project should/must have an associated issue. 
 
-## Step 2 : Project Conventions
-- All the pages that you make must be inside src/pages folder and filename should follow pascal case with extension of .jsx
-- All the components of a particular page must be inside src/components/<page-name> folder and filename should follow pascal case with extension of .jsx
-- All the config files must be inside src/config folder
-- All css, images, font files must be inside src/assets/<css/images/fonts> folder and filename should follow camel case
+## Step 2 : Start Working
+### If the issue is assigned to you
+- Fork the project
+- Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+- Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+- Push to the Fork (`git push origin feature/AmazingFeature`)
+- Open a Pull Request tagging the issue assigned to you
+ <hr />
+ 
+## Important Conventions
+- All the pages that you make must be inside `src/pages` folder and filename should follow pascal case with extension of `.jsx`
+- All the components of a particular page must be inside `src/components/<page-name>` folder and filename should follow pascal case with extension of `.jsx`
+- All the config files must be inside `src/config` folder
+- All css, images, font files must be inside `src/assets/<css/images/fonts>` folder and filename should follow camel case
 - All class names should follow [bem convention](http://getbem.com/naming/)
 - Avoid inline styling
