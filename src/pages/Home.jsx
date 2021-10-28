@@ -1,9 +1,9 @@
-import Header from "../components/home/Header"
+import Navbar from "../components/home/Navbar"
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            <Navbar/>
         </div>
     )
 }
