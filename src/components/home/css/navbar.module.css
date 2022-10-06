@@ -1,0 +1,21 @@
+.navbar {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.navbarLogo {
+  flex: 0.3;
+}
+.navbarLinks {
+  display: flex;
+}
+.navbarLink {
+  margin: 0 10px;
+}
+.navbarLogo {
+  height: 50px;
+}
