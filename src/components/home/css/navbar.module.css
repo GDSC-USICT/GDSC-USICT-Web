@@ -1,21 +1,23 @@
 .navbar {
-  width: 90%;
-  background-color: white;
+  width: 100%;
+  background-color: #222c31 ;
   display: flex;
   margin: auto;
   justify-content: space-between;
-  margin-top: 10px;
+  padding-top: 10px;
+  color:white;
 }
 
 .navbarLogo {
-  flex: 0.3;
+  flex: 0.2;
+  height: 50px;
+  margin-top:-5px;
 }
 .navbarLinks {
   display: flex;
+  margin: 5px 30px 0 0;
 }
 .navbarLink {
   margin: 0 10px;
 }
-.navbarLogo {
-  height: 50px;
-}
+
