@@ -1,0 +1,47 @@
+.footerr{
+    padding: 1vw;
+  background: #222c31;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    margin-top: 1.2vw;
+}
+.footerHeading{
+    font-size: 1.2vw;
+    color: white;
+}
+.QuickLinks ul li{
+ list-style:none;
+}
+.QuickLinks ul{
+    text-align: left;
+    padding: 0;
+}
+.QuickLinks ul li a{
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.722);
+    font-size: 0.9vw;
+}
+.QuickLinks ul li a:hover{
+    color: rgb(240, 255, 255);
+}
+.social img{
+    height: 1.3vw;
+    margin: 0.8vw;
+    filter: invert(0.8);
+}
+.social img:hover{
+    cursor: pointer;
+    filter: invert(1);
+    transition: all 0.4s;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vw;
+    font-size: 0.7vw;
+}
