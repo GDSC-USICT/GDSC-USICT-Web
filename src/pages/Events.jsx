@@ -1,10 +1,12 @@
 import Navbar from "../components/home/Navbar"
+import Footer from "../components/home/Footer"
 
 const Events = () => {
     return (
-        <div>
+        <>
             <Navbar/>
-        </div>
+            <Footer/>
+        </>
     )
 }
 
